@@ -1,0 +1,32 @@
+{
+  "name": "create-ago",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "unbuild --stub",
+    "build": "unbuild",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "create-ago": "index.js",
+    "ago": "index.js"
+  },
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  },
+  "keywords": [],
+  "author": "millylee",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3",
+    "unbuild": "^2.0.0"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "consola": "^3.2.3"
+  }
+}
