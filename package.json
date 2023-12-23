@@ -1,6 +1,6 @@
 {
   "name": "create-ago",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -17,6 +17,11 @@
   "engines": {
     "node": "^18.0.0 || >=20.0.0"
   },
+  "files": [
+    "index.js",
+    "template",
+    "dist"
+  ],
   "keywords": [],
   "author": "millylee",
   "license": "MIT",
